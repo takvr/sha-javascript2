@@ -18,7 +18,8 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin:1.4% 1%;
+  align-items: center;
+  margin:auto 1%;
 }
 
 #nav-btns {
