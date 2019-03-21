@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>week3_js2 | SHA</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">  
+</head>
+<body>
+  <div id="header">
+    <div id="nav">
+      <div id="nav-btns">
+        <button type="button" id="btn">Show repos</button>
+        <button type="button" id="clear-btn">Clear all</button>
+      </div>
+      <form>
+        <input type="text" id="myInput" placeholder="Search repository">
+        <button id="searchBtn" type="button">Search</button>
+      </form>
+    </div>  
+  </div>
+  <div id="container">
+    <div id="content" class="myDivs"></div>
+    <div id="contributor" class="myDivs reposData"></div>
+    <div id="searchResult" class="myDivs reposData"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("clear-btn").onclick = function () {
+        location.href = "file:///home/panos/Desktop/week3/index.html";
+    };
+  </script>
+</body>
+</html>
