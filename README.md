@@ -1,8 +1,8 @@
 # sha-javascript2
 
-https://takvr.github.io/sha-javascript2/index.html
+This is a homework for Social Hackers Academy.
 
-This is a homework for Social Hackers Academy
+https://takvr.github.io/sha-javascript2/index.html
 
 Homework: 
 
